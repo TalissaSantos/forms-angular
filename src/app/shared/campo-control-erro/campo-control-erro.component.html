@@ -1,0 +1,11 @@
+
+
+<!-- para diminuir as linhas de codigo da mensagem de erro -->
+<!-- no ngif foi usado o metodo boolean criado no componente e no paragrafo
+foi usado o {{para receber a string(mensagem de erro do html)}} -->
+<div
+*ngIf="mostrarErro"
+class="alert alert-info"
+role="alert">
+<p>{{ msgErro }}</p>
+</div>
